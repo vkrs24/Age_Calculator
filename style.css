@@ -31,7 +31,6 @@ body {
 .dis_cnt {
   color: white;
   font-size: 160%;
-  margin-top: 20px;
 }
 .box {
   background-color: rgba(255, 255, 255, 0.6);
@@ -42,10 +41,10 @@ body {
 
 #datex {
   padding: 10px;
-  width: 250px;
   font-size: 140%;
   border-radius: 5px;
   border: none;
+  flex: 1;
 }
 
 .btn {
@@ -59,14 +58,19 @@ body {
 
 @media screen and (max-width: 550px) {
   .title {
-    width: 80%;
+    width: 100%;
     font-size: 250%;
   }
   body {
     background-color: rgb(22, 50, 162);
+    overflow-x: hidden;
   }
   .container {
+    text-align: center;
+    width: 95%;
+  }
+  .box {
     padding: 10px;
-    height: 101vh;
+    flex-direction: column;
   }
 }
