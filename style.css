@@ -73,4 +73,7 @@ body {
     padding: 10px;
     flex-direction: column;
   }
+  .btn {
+    margin-top: 1vh;
+  }
 }
