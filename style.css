@@ -56,6 +56,11 @@ body {
   background-color: yellow;
 }
 
+.copy_cnt {
+  color: white;
+  text-align: center;
+}
+
 @media screen and (max-width: 550px) {
   .title {
     width: 100%;
